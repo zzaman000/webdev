@@ -1,0 +1,110 @@
+/* Page background */
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(135deg, #eef2f7, #d9e2ec);
+}
+
+/* Center wrapper */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  min-height: 100vh;
+}
+
+/* Card */
+.form-card {
+  background: #ffffff;
+  width: 420px;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.form-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #333;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+
+/* Inputs */
+.form-control {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d0d7de;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #4c8bf5;
+  box-shadow: 0 0 0 2px rgba(76, 139, 245, 0.15);
+}
+
+/* Error text */
+.text-danger {
+  font-size: 12px;
+  color: #e63946;
+  margin-top: 4px;
+  display: block;
+}
+
+/* Submit button */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #4c8bf5;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.submit-btn:hover {
+  background: #3b6fd8;
+}
+
+/* Display section */
+.display-card {
+  margin-top: 30px;
+  background: #f9fbff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e3eaf3;
+}
+
+.display-card h3 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.display-card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #555;
+}
