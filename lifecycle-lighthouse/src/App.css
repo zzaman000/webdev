@@ -1,0 +1,129 @@
+.page {
+  width: 900px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+
+.panel {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 14px 0;
+}
+
+.statusRow {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.pill {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+}
+
+.pill.loading {
+  background: #fff7d6;
+}
+
+.pill.success {
+  background: #ddffe3;
+}
+
+.pill.error {
+  background: #ffd9d9;
+}
+
+.beacon {
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+}
+
+.beacon.on {
+  background: #d8e9ff;
+}
+
+.beacon.off {
+  background: #f3f3f3;
+}
+
+.controls {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.controlGroup {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+select {
+  padding: 6px 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 12px;
+  background: #fff;
+}
+
+.card.high {
+  border-left: 6px solid #ff6b6b;
+}
+
+.card.low {
+  border-left: 6px solid #8a8a8a;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: start;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  white-space: nowrap;
+}
+
+.tag.high {
+  background: #ffd9d9;
+}
+
+.tag.low {
+  background: #f0f0f0;
+}
+
+.muted {
+  color: #555;
+}
+
+.errorText {
+  color: #b00020;
+  font-weight: bold;
+}
