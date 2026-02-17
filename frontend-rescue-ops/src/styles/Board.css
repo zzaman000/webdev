@@ -1,0 +1,22 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.column {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 12px;
+  min-height: 260px;
+}
+
+.columnTitle {
+  margin: 4px 0 10px;
+}
+
+.empty {
+  color: #666;
+}

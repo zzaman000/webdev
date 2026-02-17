@@ -1,0 +1,57 @@
+.container {
+  width: 900px;
+  margin: 40px auto;
+  font-family: Arial;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: white;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.advanced {
+  border: 2px solid #4a7cff;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 8px;
+  background: gold;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.details {
+  border-top: 2px solid #ccc;
+  padding-top: 15px;
+}
+
+.select-msg {
+  color: gray;
+}
+
+.level-flag {
+  display: inline-block;
+  background: #4a7cff;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-bottom: 8px;
+}

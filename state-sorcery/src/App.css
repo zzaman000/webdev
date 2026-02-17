@@ -1,0 +1,32 @@
+.container {
+  width: 700px;
+  margin: 40px auto;
+  font-family: Arial;
+}
+
+.box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: white;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.warning {
+  color: red;
+}
+
+.active {
+  background: #d8e9ff;
+}
+
+.status {
+  border-top: 2px solid #ccc;
+  padding-top: 15px;
+}

@@ -1,0 +1,64 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: start;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 16px;
+}
+
+.pill {
+  font-size: 12px;
+  padding: 3px 8px;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  background: #f0f0f0;
+  white-space: nowrap;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.btnSmall {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.btnSmall:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btnDanger {
+  padding: 6px 10px;
+  background: #ffd9d9;
+  border: 1px solid #ff9a9a;
+  cursor: pointer;
+}
+
+.priority-high {
+  border-left: 6px solid #ff6b6b;
+}
+
+.priority-med {
+  border-left: 6px solid #ffcc66;
+}
+
+.priority-low {
+  border-left: 6px solid #8a8a8a;
+}

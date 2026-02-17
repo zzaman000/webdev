@@ -1,0 +1,23 @@
+.container {
+  width: 420px;
+  margin: 60px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial;
+}
+
+.title {
+  text-align: center;
+}
+
+.about {
+  margin: 15px 0;
+}
+
+.goals {
+  background: #f4f7ff;
+  padding: 15px;
+  border-radius: 8px;
+}

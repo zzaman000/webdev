@@ -1,0 +1,41 @@
+.formWrap {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.sectionTitle {
+  margin: 0 0 10px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+}
+
+.select {
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.warn {
+  margin: 10px 0 0;
+  color: #8a5a00;
+}
+
+.error {
+  margin: 10px 0 0;
+  color: #b00020;
+  font-weight: bold;
+}
