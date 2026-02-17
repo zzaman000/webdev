@@ -1,0 +1,39 @@
+body{
+  font-family:Arial;
+  text-align:center;
+  padding:40px;
+  transition:.2s;
+}
+
+.panel{
+  border:2px solid #ccc;
+  padding:20px;
+  margin:20px auto;
+  width:350px;
+  border-radius:10px;
+  transition:.2s;
+}
+
+.controls button{
+  margin:5px;
+  padding:10px 15px;
+  cursor:pointer;
+}
+
+.dark{
+  background:#1e1e1e;
+  color:white;
+}
+
+.dark .panel{
+  border-color:#555;
+}
+
+.highlight{
+  box-shadow:0 0 15px gold;
+  border-color:gold;
+}
+
+.hidden{
+  display:none;
+}

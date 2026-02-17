@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Reactive Form</title> 
+<style>
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+/* limit form width so inputs don't stretch across page */
+form{
+  width:400px;
+}
+
+.field{
+  display:grid;
+  grid-template-columns:120px 1fr;
+  grid-template-rows:auto 18px;
+  column-gap:10px;
+  margin-bottom:12px;
+  align-items:center;
+}
+
+.field label{
+  grid-column:1;
+  grid-row:1;
+}
+
+.field input{
+  grid-column:2;
+  grid-row:1;
+  width:100%;
+  box-sizing:border-box;
+}
+
+.field .msg{
+  grid-column:2;
+  grid-row:2;
+  height:18px;
+  font-size:12px;
+}
+
+button{
+  margin-top:10px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>The Reactive Form</h1>
+
+<form id="form">
+
+  <div class="field">
+    <label>Username</label>
+    <input type="text" id="username">
+    <small class="msg" id="userMsg"></small>
+  </div>
+
+  <div class="field">
+    <label>Email</label>
+    <input type="text" id="email">
+    <small class="msg" id="emailMsg"></small>
+  </div>
+
+  <div class="field">
+    <label>Password</label>
+    <input type="password" id="password">
+    <small class="msg" id="passMsg"></small>
+  </div>
+
+  <button id="submitBtn" disabled>Submit</button>
+
+</form>
+
+
+<p id="summary"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
